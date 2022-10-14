@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #374151;
+    text-align: center;
+    color:white;
+}
+
+nav{
+    
+    padding: 3rem;
+    background-color: #4f46e5;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    float: left;
+}
+
+.item-active{
+    border-bottom: 2px solid white;
+}
+
+h2{
+    border: 2px solid #4f46e5;
+    display: inline-block;
+    padding: 0.5rem;
+    width: 35rem;
+}
+
+label{
+    display: block;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    margin-right: 19rem;
+}
+
+input{
+    height: 2rem;
+    width: 20rem;
+}
+
+#hypotenous-btn{
+    display: block;
+    margin: 1rem;
+    margin-left: 40%;
+    width: 19rem;
+    height: 2rem;
+    font-size: inherit;
+    background: #4f46e5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#output-box{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
